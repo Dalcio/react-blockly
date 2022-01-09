@@ -1,33 +1,3 @@
-body {
-  overflow: hidden;
-}
-
-.App {
-  padding: 2em;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.board {
-  border: 1px solid black;
-
-  width: 400px;
-
-  display: flex;
-}
-
-.board > img {
-  width: 100px;
-  height: 100px;
-}
-
-.pictures > * {
-  margin: 10px;
-}
-
-img {
-  border: 1px solid;
-  object-fit: cover;
+.fill-height {
+  height: calc(90vh - 114px);
 }
